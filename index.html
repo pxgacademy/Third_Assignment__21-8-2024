@@ -91,17 +91,13 @@
         <!-- navbar-end -->
         <div>
           <!-- Dropdown list -->
-          <div class="dropdown lg:hidden">
-            <div
-              tabindex="0"
-              role="button"
-              class="btn btn-ghost hover:bg-white"
-            >
+          <div class="dropdown relative bg-white rounded-full border">
+            <div tabindex="0" role="button" class="btn btn-ghost">
               <i class="fa-solid fa-bars"></i>
             </div>
             <ul
               tabindex="0"
-              class="menu menu-sm dropdown-content z-[1] mt-3 w-52 p-2 shadow"
+              class="absolute right-0 menu menu-sm dropdown-content z-[1] mt-3 w-52 p-2 shadow bg-white"
             >
               <li class="px-4">
                 <a
@@ -141,7 +137,7 @@
             </ul>
           </div>
 
-          <div class="hidden lg:block">
+          <div class="hidden lg:bloc">
             <div class="flex items-center gap-4">
               <div
                 class="bg-white rounded-full w-10 h-10 flex items-center justify-center"
