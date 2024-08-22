@@ -415,7 +415,9 @@
         <!-- Cards -->
         <div class="lg:flex lg:gap-5 mt-6 space-y-5 lg:space-y-0">
           <!-- Card one -->
-          <div class="space-y-2 w-full md:w-2/3 lg:w-auto mx-auto bg-white p-5 rounded-3xl">
+          <div
+            class="space-y-2 w-full md:w-2/3 lg:w-auto mx-auto bg-white p-5 rounded-3xl"
+          >
             <img class="w-full" src="./images/article1.png" alt="" />
             <div class="flex items-center gap-5 text-secondaryTextColor">
               <i class="fa-solid fa-calendar-days"></i>
@@ -443,7 +445,9 @@
           </div>
 
           <!-- Card two -->
-          <div class="space-y-2 w-full md:w-2/3 lg:w-auto mx-auto bg-white p-5 rounded-3xl">
+          <div
+            class="space-y-2 w-full md:w-2/3 lg:w-auto mx-auto bg-white p-5 rounded-3xl"
+          >
             <img class="w-full" src="./images/article2.png" alt="" />
             <div class="flex items-center gap-5 text-secondaryTextColor">
               <i class="fa-solid fa-calendar-days"></i>
@@ -471,7 +475,9 @@
           </div>
 
           <!-- Card three -->
-          <div class="space-y-2 w-full md:w-2/3 lg:w-auto mx-auto bg-white p-5 rounded-3xl">
+          <div
+            class="space-y-2 w-full md:w-2/3 lg:w-auto mx-auto bg-white p-5 rounded-3xl"
+          >
             <img class="w-full" src="./images/article3.png" alt="" />
             <div class="flex items-center gap-5 text-secondaryTextColor">
               <i class="fa-solid fa-calendar-days"></i>
@@ -497,6 +503,74 @@
               </div>
             </button>
           </div>
+        </div>
+      </div>
+
+      <!-- Discuss Next Project -->
+      <div class="bg-bgColorTwo py-5 md:py-10 lg:py-16 w-full px-5 md:px-[5%]">
+        <div class="w-full md:w-2/3 lg:w-1/2 mx-auto text-center space-y-4">
+          <button class="btn bg-secondaryColor rounded-full">
+            <i class="fa-solid fa-arrow-right"></i>
+            Let’s Connect
+          </button>
+          <h2 class="text-xl md:text-3xl lg:text-5xl font-extrabold">
+            Let’s Discuss Next Project
+          </h2>
+          <p>
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents.
+          </p>
+        </div>
+
+        <!-- Form -->
+        <div
+          class="md:grid md:grid-cols-2 gap-4 w-full lg:w-2/3 mx-auto mt-6 space-y-2 md:space-y-0"
+        >
+          <input
+            class="py-3 px-5 rounded-full outline-none border w-full"
+            type="text"
+            name="firstName"
+            id="firstName"
+            placeholder="First Name *"
+          />
+          <input
+            class="py-3 px-5 rounded-full outline-none border w-full"
+            type="text"
+            name="lastName"
+            id="lastName"
+            placeholder="Last Name *"
+          />
+          <input
+            class="py-3 px-5 rounded-full outline-none border w-full"
+            type="number"
+            name="phoneNum"
+            id="phoneNum"
+            placeholder="Phone Number *"
+          />
+          <input
+            class="py-3 px-5 rounded-full outline-none border w-full"
+            type="email"
+            name="userEmail"
+            id="userEmail"
+            placeholder="Email *"
+          />
+          <textarea
+            class="md:col-span-2 py-3 px-5 h-40 rounded-2xl outline-none border w-full"
+            name="yourMsg"
+            id="yourMsg"
+          >
+Write your message here</textarea
+          >
+          <button
+            class="md:col-span-2 btn bg-primaryColor hover:bg-secondaryColor hover:border-white text-xl font-bold rounded-full w-full"
+          >
+            Send Mail
+            <div
+              class="bg-primaryTextColor rounded-full flex items-center justify-center p-2 text-white"
+            >
+              <i class="fa-solid fa-arrow-right -rotate-45"></i>
+            </div>
+          </button>
         </div>
       </div>
     </main>
