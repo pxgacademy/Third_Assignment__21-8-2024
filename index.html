@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tea House</title>
+    <title>Rinterio</title>
     <!-- CSS raw file -->
     <link rel="stylesheet" href="./styles/styles.css" />
     <!-- Google font cdn -->
@@ -20,15 +20,161 @@
     ></script>
     <!-- Tailwindcss cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- daisyUI cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
   <!-- body started here -->
-  <body class="font-manrope">
+  <body
+    class="font-manrope text-primaryTextColor w-full max-w-[1440px] mx-auto"
+  >
     <!-- header section started -->
-    <header>
-      <h2>Abdullah</h2>
-    </header>
-    <main></main>
+    <header class="bg-bgColorOne w-full px-5 md:px-[5%]">
+      <!-- navbar -->
+      <nav class="w-full flex items-center justify-between py-4">
+        <!-- Web title -->
+        <div class="flex items-center gap-3">
+          <div
+            class="bg-primaryColor rounded-full w-8 h-8 flex items-center justify-center"
+          >
+            <i class="fa-solid fa-arrow-right-long -rotate-45"></i>
+          </div>
+          <h3 class="text-3xl font-bold">Rinterio</h3>
+        </div>
+
+        <!-- menu list -->
+        <div class="hidden lg:block">
+          <ul class="flex items-center">
+            <li class="px-4">
+              <a
+                class="text-secondaryTextColor hover:text-primaryTextColor"
+                href=""
+                >Home</a
+              >
+            </li>
+            <li class="px-4">
+              <a
+                class="text-secondaryTextColor hover:text-primaryTextColor"
+                href=""
+                >Service</a
+              >
+            </li>
+            <li class="px-4">
+              <a
+                class="text-secondaryTextColor hover:text-primaryTextColor"
+                href=""
+                >Portfolio</a
+              >
+            </li>
+            <li class="px-4">
+              <a
+                class="text-secondaryTextColor hover:text-primaryTextColor"
+                href=""
+                >Blogs</a
+              >
+            </li>
+            <li class="px-4">
+              <a
+                class="text-secondaryTextColor hover:text-primaryTextColor"
+                href=""
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- navbar-end -->
+        <div>
+          <!-- Dropdown list -->
+          <div class="dropdown lg:hidden">
+            <div
+              tabindex="0"
+              role="button"
+              class="btn btn-ghost hover:bg-white"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content z-[1] mt-3 w-52 p-2 shadow"
+            >
+              <li class="px-4">
+                <a
+                  class="text-secondaryTextColor hover:text-primaryTextColor"
+                  href=""
+                  >Home</a
+                >
+              </li>
+              <li class="px-4">
+                <a
+                  class="text-secondaryTextColor hover:text-primaryTextColor"
+                  href=""
+                  >Service</a
+                >
+              </li>
+              <li class="px-4">
+                <a
+                  class="text-secondaryTextColor hover:text-primaryTextColor"
+                  href=""
+                  >Portfolio</a
+                >
+              </li>
+              <li class="px-4">
+                <a
+                  class="text-secondaryTextColor hover:text-primaryTextColor"
+                  href=""
+                  >Blogs</a
+                >
+              </li>
+              <li class="px-4">
+                <a
+                  class="text-secondaryTextColor hover:text-primaryTextColor"
+                  href=""
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="hidden lg:block">
+            <div class="flex items-center gap-4">
+              <div
+                class="bg-white rounded-full w-10 h-10 flex items-center justify-center"
+              >
+                <i class="fa-solid fa-search text-secondaryTextColor"></i>
+              </div>
+
+              <div
+                class="bg-white rounded-full w-10 h-10 flex items-center justify-center"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping text-secondaryTextColor"
+                ></i>
+              </div>
+
+              <!-- button design -->
+              <button
+                class="btn bg-primaryColor rounded-full font-bold text-xl"
+              >
+                Book Consult
+                <div
+                  class="bg-primaryTextColor rounded-full w-8 h-8 flex items-center justify-center"
+                >
+                  <i
+                    class="fa-solid fa-arrow-right-long -rotate-45 text-white"
+                  ></i>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+</header>
     <footer></footer>
     <!-- JavaScript -->
     <script src="./js/script.js"></script>
