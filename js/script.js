@@ -11,6 +11,9 @@ tailwind.config = {
         bgColorOne: "#F9F9F9",
         bgColorTwo: "#F3F3F3",
       },
+      backgroundPosition:{
+        customBgPosition: '25px 50px',
+      },
       fontFamily: {
         manrope: ["Manrope", "sans-serif"],
       },
